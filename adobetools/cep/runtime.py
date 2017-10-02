@@ -133,7 +133,7 @@ def main():
     if args.verbose:
         sys.stdout = sys.stderr
     else:
-        sys.stdout = open('/tmp/adobetools-premiere-runtime.log', 'a')
+        sys.stdout = open('/tmp/adobetools-cep-runtime.log', 'a')
         sys.stderr = sys.stdout
 
     log('Starting.')
